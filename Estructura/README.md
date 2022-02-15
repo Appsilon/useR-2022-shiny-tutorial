@@ -1,4 +1,4 @@
-Para poder correr los proyectos `2_config`, `3_testhat-covr` y `4_lintr-styler` **localmente**, recorda hacer 
+Para poder correr los proyectos `2_config`, `3_testthat-covr` y `4_lintr-styler` **localmente**, recorda hacer 
 ``` {r}
 renv::restore()
 ```
