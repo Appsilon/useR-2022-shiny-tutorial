@@ -1,6 +1,6 @@
 # Production-level Shiny app development
 
-Here, we share the materials for our submitted proposal for a Shiny tutorial at [useR 2022](https://user2022.r-project.org/).
+Materials and slides for our submitted proposal for a Shiny tutorial at [useR 2022](https://user2022.r-project.org/).
 
 ## Overview
 How to transform your idea into a production-ready app?
@@ -17,9 +17,9 @@ For each of these topics, there will be an interactive practice session to gain 
 
 ## Content
 
-| Topic     | Folder      |RStudio Cloud instance   | Instructor     |
+| Topic     | Folder      |RStudio Cloud space   | Instructor     |
 | ------------- | ------------- | -------- | -------- |
-| App structure and good practices          | `Estructura`         | [Link](https://rstudio.cloud/spaces/190694/content/all?sort=name_asc)| Agustin  |
+| App structure and good practices          | `./Estructura/`         | [Link](https://rstudio.cloud/spaces/190694/content/all?sort=name_asc)| Agustin  |
 | Modularization           | ``         | [Link] | Federico  |
 | Performance optimization and database management           | ``         | [Link] | Oriol  |
 
