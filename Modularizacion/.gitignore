@@ -4,4 +4,3 @@
 *.Ruserdata
 *.Rmd
 renv/
-renv.lock
