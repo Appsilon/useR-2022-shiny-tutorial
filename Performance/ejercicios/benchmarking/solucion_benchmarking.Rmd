@@ -1,0 +1,44 @@
+---
+title: "Solucion Benchmarking"
+author: "Oriol Senan"
+date: "9/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+```
+
+### Preparar datos
+
+```{r, preparar datos}
+library(vroom)
+library(dplyr)
+data <- vroom("../../datos/energia_mundial.csv") %>%
+  dplyr::filter(country == "Argentina") %>%
+  dplyr::select(year, gdp)
+  
+```
+
+### Preparar funciones
+```{r, preparar funciones}
+library(ggplot2)
+library(plotly)
+grafico_ggplotly <- function() {
+  data %>% ggplot(aes(x = year, y = gdp)) + geom_line() %>%
+    ggplotly()
+}
+grafico_plot_ly <- function() {
+  data %>% plot_ly(x ~ year, y ~ gdp, type = "scatter") %>%
+    add_lines()
+}
+```
+
+### Ejecutar benchmarking
+```{r, benchmarking}
+library(microbenchmark)
+resultados <- microbenchmark(grafico_plot_ly,
+               grafico_ggplotly,
+               times = 5)
+autoplot(resultados)
+```

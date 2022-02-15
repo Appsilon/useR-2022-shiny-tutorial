@@ -1,0 +1,19 @@
+---
+title: "Mejora de performance"
+author: "Oriol Senan"
+date: "9/11/2021"
+output: html_document
+---
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE, include = FALSE)
+```
+
+## Objetivos
+
+* Mejorar la velocidad del app al iniciar
+* Simplificar el procesamiento de datos para la interaccion table - gráfico
+
+## Metodologia
+
+Libre

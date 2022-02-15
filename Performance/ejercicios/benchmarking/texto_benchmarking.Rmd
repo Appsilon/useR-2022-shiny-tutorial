@@ -1,0 +1,22 @@
+---
+title: "Ejercicio Benchmarking"
+author: "Oriol Senan"
+date: "9/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Objetivo
+
+Comparar mediante benchmarking el tiempo general un gráfico con plotly cuando usamos la función `ggplotly` y la función
+`plot_ly`
+
+## Metodologia
+
+Preparar microejemplo para benchmarking:
+
+- datos de muestra
+- funciones para comparar en benchmarking
