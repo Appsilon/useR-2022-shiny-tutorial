@@ -19,7 +19,7 @@ For each of these topics, there will be an interactive practice session to gain 
 | Topic     | Folder      |RStudio Cloud space   | Instructor     |
 | ------------- | ------------- | -------- | -------- |
 | App structure and good practices          | `./Estructura/`         | [Link](https://rstudio.cloud/spaces/190694/content/all?sort=name_asc)| Agustin  |
-| Modularization           | ``         | [Link](https://rstudio.cloud/spaces/190842/project/3194225) | Federico  |
+| Modularization           | ``         | [Link](https://rstudio.cloud/spaces/190842/join?access_code=6Uz81dZhBVFFDwtng8_BFFUqz4jWdWqo-C4jR-b7) | Federico  |
 | Performance optimization and data management           | ``         | [Link](https://rstudio.cloud/spaces/190893/project/3193631) | Oriol  |
 
 **Note, to access the RStudio Cloud links you will need an URL that we will provide the day of the tutorial.*
