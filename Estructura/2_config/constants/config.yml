@@ -1,0 +1,11 @@
+default:
+  numero: 5
+  titulo: "dev"
+  
+test:
+  numero: 100
+  titulo: "test"
+
+production:
+  inherit: test
+  tituo: "production"
